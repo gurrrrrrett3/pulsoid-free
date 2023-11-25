@@ -1,11 +1,12 @@
 {
   "name": "pulsoid-free",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Get heart rate info from pulsoid without an api key",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node dist/test/index.js",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "gurrrrrrett3",

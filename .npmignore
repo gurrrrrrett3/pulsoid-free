@@ -1,0 +1,5 @@
+dist/**.map
+.tsbuildinfonode_modules
+**.map
+.tsbuildinfo
+src
